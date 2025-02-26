@@ -1,0 +1,16 @@
+[project]
+name = "llm-nix"
+version = "0.1.0"
+description = "opinionated llm install powered by uv2nix"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "llm>=0.22",
+    "llm-anthropic>=0.14.1",
+    "llm-cmd>=0.2a0",
+    "llm-cmd-comp>=1.1.1",
+    "llm-gemini>=0.12",
+    "llm-jq>=0.1.1",
+    "llm-python>=0.1",
+    "rich-click>=1.8.6",
+]
