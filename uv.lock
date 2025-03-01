@@ -13,7 +13,7 @@ wheels = [
 
 [[package]]
 name = "anthropic"
-version = "0.47.2"
+version = "0.49.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -24,9 +24,9 @@ dependencies = [
     { name = "sniffio" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/64/65/175bf024bd9866ef96470620e164dcf8c3e0a2892178e59d1532465c8315/anthropic-0.47.2.tar.gz", hash = "sha256:452f4ca0c56ffab8b6ce9928bf8470650f88106a7001b250895eb65c54cfa44c", size = 208066 }
+sdist = { url = "https://files.pythonhosted.org/packages/86/e3/a88c8494ce4d1a88252b9e053607e885f9b14d0a32273d47b727cbee4228/anthropic-0.49.0.tar.gz", hash = "sha256:c09e885b0f674b9119b4f296d8508907f6cff0009bc20d5cf6b35936c40b4398", size = 210016 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/ad/feddd3ed83804b7f05c90b343e2d9df8f4a28028d6820c1a034de79dcdab/anthropic-0.47.2-py3-none-any.whl", hash = "sha256:61b712a56308fce69f04d92ba0230ab2bc187b5bce17811d400843a8976bb67f", size = 239536 },
+    { url = "https://files.pythonhosted.org/packages/76/74/5d90ad14d55fbe3f9c474fdcb6e34b4bed99e3be8efac98734a5ddce88c1/anthropic-0.49.0-py3-none-any.whl", hash = "sha256:bbc17ad4e7094988d2fa86b87753ded8dce12498f4b85fe5810f208f454a8375", size = 243368 },
 ]
 
 [[package]]
@@ -196,7 +196,7 @@ wheels = [
 
 [[package]]
 name = "llm"
-version = "0.22"
+version = "0.23"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -213,22 +213,22 @@ dependencies = [
     { name = "sqlite-migrate" },
     { name = "sqlite-utils" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/11/75/b05a3014a18e70ecf1c8ed79e4a46ccb0c381ae7cd218defb11a9a96394d/llm-0.22.tar.gz", hash = "sha256:3b52cfa6048092df3c6ddd375353b636166bf2d1028b454951865eae4c63d38b", size = 46013 }
+sdist = { url = "https://files.pythonhosted.org/packages/61/0d/012b8d57d78f247c5f3878d3911e7431a8c7c4b8a6ecd9c984145ed019d3/llm-0.23.tar.gz", hash = "sha256:552e549a46cbcae6f3414b8f5952d6651a7f8b60b5f09444057a7a52793a6c8e", size = 49966 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/0f/8c8007a2552378aa42f673bc142e2d9c80caff823c41c7ab12d7ce77bf9b/llm-0.22-py3-none-any.whl", hash = "sha256:ea0448a848e19a0965b04711b97f93173d7ec1c84a1f5d9e352d471d59d9e3f5", size = 47615 },
+    { url = "https://files.pythonhosted.org/packages/52/79/a80563b03fb3d0097ce344fd12e5463b90295a9d6aa1210a9a2e03e22f4e/llm-0.23-py3-none-any.whl", hash = "sha256:3c6fe7ee80104e0e5dee0eb98a1b2ad00d4874535bbf6fe9578380062cf1ee6d", size = 51602 },
 ]
 
 [[package]]
 name = "llm-anthropic"
-version = "0.14.1"
+version = "0.15.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anthropic" },
     { name = "llm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6e/20/5fd7c7ea55ca7aba0cdf58d35f13619116ce455ebd4d3f935742285b7fd7/llm_anthropic-0.14.1.tar.gz", hash = "sha256:eb604243f80b5997b0dfb247b2cdca24b8a71a88e6e4d9b090ab9f02f7885b3a", size = 13279 }
+sdist = { url = "https://files.pythonhosted.org/packages/74/f2/05bfd432161a9829443a174f5b95e5cfb8a4d19b7f3c126cf7e43e59ba97/llm_anthropic-0.15.1.tar.gz", hash = "sha256:0bcc4db38a12e75631027d6226493c8f8b09e5d3b4a553b02223f89affcc9d09", size = 14692 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/01/78/e6c89ab6bc1533e04af226614b4855c2663ef8866fb292cfba2d126b896a/llm_anthropic-0.14.1-py3-none-any.whl", hash = "sha256:3cb0131b81118ea946018deac1dff980f852156f827c726ad48977d884daeb94", size = 12248 },
+    { url = "https://files.pythonhosted.org/packages/86/64/46493fcdada0c457b38bb97c8a40f9b1f07980420912908ec3efa121282d/llm_anthropic-0.15.1-py3-none-any.whl", hash = "sha256:1f66507df807fb27e53e73f448b4a22e2285ef0b198e9c4889c3a695dd7f8d34", size = 12588 },
 ]
 
 [[package]]
@@ -260,16 +260,16 @@ wheels = [
 
 [[package]]
 name = "llm-gemini"
-version = "0.12"
+version = "0.13"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
     { name = "ijson" },
     { name = "llm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/87/42/9b6eb341fa1a6ca9f04ccd132b1b937fb307afcbbc69d7d0a188314f9b5b/llm_gemini-0.12.tar.gz", hash = "sha256:520babd552e375b735f0ebc20dcf6e564c7b8f4faed962145f3f3135d9b9e6f1", size = 11467 }
+sdist = { url = "https://files.pythonhosted.org/packages/e0/40/a732b678f8df215ba1042c5d2c78e1a6d21a21ef582cf8550bb95ee7348a/llm_gemini-0.13.tar.gz", hash = "sha256:93a85fa224f5f520191eca01acc038c80bf37391ef09d1e9d82aff2a032c3a58", size = 11684 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ce/af/9e4f59368e6d75d7f382adc6630734ece2f76f7a89c3efeb67118cff7ab6/llm_gemini-0.12-py3-none-any.whl", hash = "sha256:9ed10fb684860d757b81cd455e1490880ae9379476e9ec15ee843964e6bf3c09", size = 11515 },
+    { url = "https://files.pythonhosted.org/packages/95/de/a9b90113e4c84c0d48e592f0f4b218d165cd49be38db3bfd5d15e6b0ed0c/llm_gemini-0.13-py3-none-any.whl", hash = "sha256:0ce33dabbd1d61a8188360515dc885b2510b705dafbffedb5c9813a3835747ff", size = 11746 },
 ]
 
 [[package]]
@@ -346,7 +346,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "1.64.0"
+version = "1.65.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -358,9 +358,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7b/1d/aae78d8ecc571d672c4a27794a8f248bc46437a22ddcb9c4eb6fd6616c03/openai-1.64.0.tar.gz", hash = "sha256:2861053538704d61340da56e2f176853d19f1dc5704bc306b7597155f850d57a", size = 357058 }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/03/0bbf201a7e44920d892db0445874c8111be4255cb9495379df18d6d36ea1/openai-1.65.2.tar.gz", hash = "sha256:729623efc3fd91c956f35dd387fa5c718edd528c4bed9f00b40ef290200fb2ce", size = 359185 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9a/1a/e62718f311daa26d208800976d7944e5ee6d503e1ea474522b2a15a904bb/openai-1.64.0-py3-none-any.whl", hash = "sha256:20f85cde9e95e9fbb416e3cb5a6d3119c0b28308afd6e3cc47bf100623dac623", size = 472289 },
+    { url = "https://files.pythonhosted.org/packages/2c/3b/722ed868cb56f70264190ed479b38b3e46d14daa267d559a3fe3bd9061cf/openai-1.65.2-py3-none-any.whl", hash = "sha256:27d9fe8de876e31394c2553c4e6226378b6ed85e480f586ccfe25b7193fb1750", size = 473206 },
 ]
 
 [[package]]
@@ -549,11 +549,11 @@ wheels = [
 
 [[package]]
 name = "setuptools"
-version = "75.8.1"
+version = "75.8.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/e8/42/0e5f75d734f181367de4acd9aba8f875453a5905169c5485ca8416b015ae/setuptools-75.8.1.tar.gz", hash = "sha256:65fb779a8f28895242923582eadca2337285f0891c2c9e160754df917c3d2530", size = 1343534 }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/53/43d99d7687e8cdef5ab5f9ec5eaf2c0423c2b35133a2b7e7bc276fc32b21/setuptools-75.8.2.tar.gz", hash = "sha256:4880473a969e5f23f2a2be3646b2dfd84af9028716d398e46192f84bc36900d2", size = 1344083 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/da/bd/ac215d31c2904e47ec5332897442bdc19fd6b21a82068d057152f4e9c1cf/setuptools-75.8.1-py3-none-any.whl", hash = "sha256:3bc32c0b84c643299ca94e77f834730f126efd621de0cc1de64119e0e17dab1f", size = 1228867 },
+    { url = "https://files.pythonhosted.org/packages/a9/38/7d7362e031bd6dc121e5081d8cb6aa6f6fedf2b67bf889962134c6da4705/setuptools-75.8.2-py3-none-any.whl", hash = "sha256:558e47c15f1811c1fa7adbd0096669bf76c1d3f433f58324df69f3f5ecac4e8f", size = 1229385 },
 ]
 
 [[package]]
