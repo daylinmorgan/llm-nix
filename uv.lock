@@ -269,6 +269,18 @@ wheels = [
 ]
 
 [[package]]
+name = "llm-fragments-github"
+version = "0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "llm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3d/33/a0201141b2eca710d49c3e522301045d4816fc2a425487f659629c119f93/llm_fragments_github-0.1.tar.gz", hash = "sha256:1f105ab9608cdab400e8c9cd734f0a82d2c0a7350435b0c976ad9d1c0d7dafae", size = 7127 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/51/9d/54a17fc82467087dbed80429f85d514e3dfb76dd5acea37431176b2c37b2/llm_fragments_github-0.1-py3-none-any.whl", hash = "sha256:96a2bdd617016c815823299f96709fa7c504a563f758a2f2eaa983092d5e18e7", size = 7456 },
+]
+
+[[package]]
 name = "llm-gemini"
 version = "0.17"
 source = { registry = "https://pypi.org/simple" }
@@ -280,6 +292,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b3/97/311b89bc10be0f64b52f6d28c934c6f43af91488a265f9174ec1180910ab/llm_gemini-0.17.tar.gz", hash = "sha256:9759282daf1844c5b8313a4966d9f6dfc6997111be7461a78e577d9f4aba952a", size = 13616 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3a/10/c9ef9bfc0c91a8bf8b8c226a16c8b755391de3f425eddd484a90cbb44b0f/llm_gemini-0.17-py3-none-any.whl", hash = "sha256:f6fda2fda74c5a618f7a916f4dd7fca5b8e7a43297c3f65fcedb23e3c0fccd88", size = 12687 },
+]
+
+[[package]]
+name = "llm-hacker-news"
+version = "0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "llm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d2/de/6b16678bb2ea7f248a56018585d83f1c8dae920b690776fca89e1315343f/llm_hacker_news-0.1.tar.gz", hash = "sha256:17ccbc28bed10477cf19e56b1888a19e2aa3fd56080cd26b1c874594a8d98eba", size = 7944 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/13/39/053010f8c506bad2429a85174e855d7d281e1be3f56083146c491f7c1421/llm_hacker_news-0.1-py3-none-any.whl", hash = "sha256:9d0145ff14c7db648d52badefba95706c37c4748d521ec18d2b252b52c700f76", size = 7693 },
 ]
 
 [[package]]
@@ -303,9 +327,13 @@ dependencies = [
     { name = "llm-anthropic" },
     { name = "llm-cmd" },
     { name = "llm-cmd-comp" },
+    { name = "llm-fragments-github" },
     { name = "llm-gemini" },
+    { name = "llm-hacker-news" },
     { name = "llm-jq" },
     { name = "llm-python" },
+    { name = "llm-templates-fabric" },
+    { name = "llm-templates-github" },
     { name = "rich-click" },
 ]
 
@@ -315,9 +343,13 @@ requires-dist = [
     { name = "llm-anthropic", specifier = ">=0.14.1" },
     { name = "llm-cmd", specifier = ">=0.2a0" },
     { name = "llm-cmd-comp", specifier = ">=1.1.1" },
+    { name = "llm-fragments-github", specifier = ">=0.1" },
     { name = "llm-gemini", specifier = ">=0.12" },
+    { name = "llm-hacker-news", specifier = ">=0.1" },
     { name = "llm-jq", specifier = ">=0.1.1" },
     { name = "llm-python", specifier = ">=0.1" },
+    { name = "llm-templates-fabric", specifier = ">=0.2" },
+    { name = "llm-templates-github", specifier = ">=0.1" },
     { name = "rich-click", specifier = ">=1.8.6" },
 ]
 
@@ -331,6 +363,31 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/f2/1d/458635c7ba0fd7ad5b26c356cd489791afd00b68dfdbc09159c13d8e3b7d/llm-python-0.1.tar.gz", hash = "sha256:d6658ce60b2920eed3aa4c772ef7b94fd40291bb17a27fa5573f10f803b9d2e9", size = 7102 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/59/85/ebd4a6374dca29619b3274e52a164359db99aa856b4b67e983de24ab4f1b/llm_python-0.1-py3-none-any.whl", hash = "sha256:44c4dc50dbd0cb6c7f3c7b3b6551db9deb2dd044317ac816e385aff646ffbb0f", size = 7207 },
+]
+
+[[package]]
+name = "llm-templates-fabric"
+version = "0.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "llm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f2/6a/644e3e7aa4523d7ef8f03d50887637184fc496ff83b98b4f09f8ed8bd364/llm_templates_fabric-0.2.tar.gz", hash = "sha256:519009242c000ea557b3a34aff7410520859151a3de5abbfd6d5cd21f508e663", size = 7298 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/05/6f/ead52297a7d48cc350b1cf6642c76289ae425881d56e11ef28bd920defce/llm_templates_fabric-0.2-py3-none-any.whl", hash = "sha256:1163cb26bb76fcb42100c8dd217f03de6f6bb6ba6570bab3e77bc2b9f70fc7c3", size = 7275 },
+]
+
+[[package]]
+name = "llm-templates-github"
+version = "0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "llm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b6/25/4d1a44a9572ef3d2494bc0bd39a2e5d558a74bd0664f9687c1f899bb26e2/llm_templates_github-0.1.tar.gz", hash = "sha256:392e3aa25f239c43746b74a8d7770879af468e713378423ad1738204bbd7456e", size = 7318 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2c/a2/93ac5d00e54d6c52f8048666b3eaa9adb4c284397c1fc4d217229729823a/llm_templates_github-0.1-py3-none-any.whl", hash = "sha256:f8f98d3d04456632e2bffbfbe82dbf331ac26cedaaa31b040bb800dbb5d6d936", size = 7117 },
 ]
 
 [[package]]

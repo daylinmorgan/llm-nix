@@ -9,8 +9,12 @@ dependencies = [
     "llm-anthropic>=0.14.1",
     "llm-cmd>=0.2a0",
     "llm-cmd-comp>=1.1.1",
+    "llm-fragments-github>=0.1",
     "llm-gemini>=0.12",
+    "llm-hacker-news>=0.1",
     "llm-jq>=0.1.1",
     "llm-python>=0.1",
+    "llm-templates-fabric>=0.2",
+    "llm-templates-github>=0.1",
     "rich-click>=1.8.6",
 ]
