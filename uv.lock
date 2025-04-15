@@ -269,6 +269,18 @@ wheels = [
 ]
 
 [[package]]
+name = "llm-docs"
+version = "0.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "llm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5a/b8/7b6314f57d42e8f715d909549a235a20fa36ce2eb5d461428ff254a79847/llm_docs-0.2.tar.gz", hash = "sha256:1e014b14b23a991927cb2f1fa90ff12aff9114dbd7caa674671b1f12175a93f2", size = 6892 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/24/ca/0a3ddc77dbeca759ac45970a04138310ea9895254dbb4d63c4dd1ae67096/llm_docs-0.2-py3-none-any.whl", hash = "sha256:5a4bdd8692d59fba97b0e72005de9b7b33fd09d3d841821792293c1b0feea900", size = 7028 },
+]
+
+[[package]]
 name = "llm-fragments-github"
 version = "0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -327,6 +339,7 @@ dependencies = [
     { name = "llm-anthropic" },
     { name = "llm-cmd" },
     { name = "llm-cmd-comp" },
+    { name = "llm-docs" },
     { name = "llm-fragments-github" },
     { name = "llm-gemini" },
     { name = "llm-hacker-news" },
@@ -343,6 +356,7 @@ requires-dist = [
     { name = "llm-anthropic", specifier = ">=0.14.1" },
     { name = "llm-cmd", specifier = ">=0.2a0" },
     { name = "llm-cmd-comp", specifier = ">=1.1.1" },
+    { name = "llm-docs", specifier = ">=0.2" },
     { name = "llm-fragments-github", specifier = ">=0.1" },
     { name = "llm-gemini", specifier = ">=0.12" },
     { name = "llm-hacker-news", specifier = ">=0.1" },
