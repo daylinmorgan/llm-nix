@@ -380,6 +380,7 @@ dependencies = [
     { name = "llm-gemini" },
     { name = "llm-hacker-news" },
     { name = "llm-jq" },
+    { name = "llm-ollama" },
     { name = "llm-python" },
     { name = "llm-templates-fabric" },
     { name = "llm-templates-github" },
@@ -397,10 +398,25 @@ requires-dist = [
     { name = "llm-gemini", specifier = ">=0.12" },
     { name = "llm-hacker-news", specifier = ">=0.1" },
     { name = "llm-jq", specifier = ">=0.1.1" },
+    { name = "llm-ollama", specifier = ">=0.13.0" },
     { name = "llm-python", specifier = ">=0.1" },
     { name = "llm-templates-fabric", specifier = ">=0.2" },
     { name = "llm-templates-github", specifier = ">=0.1" },
     { name = "rich-click", specifier = ">=1.8.6" },
+]
+
+[[package]]
+name = "llm-ollama"
+version = "0.13.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "llm" },
+    { name = "ollama" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/11/3e/faebb3cf44cefe2a28d84ed67a4b35e2b7f1779ae3e03fb2bc3325717aa0/llm_ollama-0.13.0.tar.gz", hash = "sha256:404638bc64c6fcb5bb484d383d299f153740df09a97f506ca56cd66fbf00c343", size = 21379, upload-time = "2025-07-28T10:46:43.298Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b9/36/d64cbb0c5e97d33a96d0923aa504ad146574e1a0fbe271bd1400bad71f5f/llm_ollama-0.13.0-py3-none-any.whl", hash = "sha256:cc1072ec4d594028e1d92e0b8ab3935e8dc4dbe23ae7b47ebf34bd48d58386a0", size = 15142, upload-time = "2025-07-28T10:46:42.233Z" },
 ]
 
 [[package]]
@@ -459,6 +475,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
+]
+
+[[package]]
+name = "ollama"
+version = "0.5.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/21/31/381d5429fffb088b55c0ace6d4c441dc355cf801620d7288813f77e9193a/ollama-0.5.2.tar.gz", hash = "sha256:7a575a90416a816231f216dbd10c3480b107218a90388c061fdf20d7ab7fe990", size = 43092, upload-time = "2025-08-05T23:02:08.404Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/76/10/d8a4e0468394e1093d32421bacd1e87452aa96b60a55f5f70766af5406f8/ollama-0.5.2-py3-none-any.whl", hash = "sha256:48ee9aed1c8f4cf2e4237b6d4cc36c328f1abc40da4aa6edf52698f757bc4164", size = 13423, upload-time = "2025-08-05T23:02:07.191Z" },
 ]
 
 [[package]]

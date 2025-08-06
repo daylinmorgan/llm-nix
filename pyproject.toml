@@ -14,6 +14,7 @@ dependencies = [
     "llm-gemini>=0.12",
     "llm-hacker-news>=0.1",
     "llm-jq>=0.1.1",
+    "llm-ollama>=0.13.0",
     "llm-python>=0.1",
     "llm-templates-fabric>=0.2",
     "llm-templates-github>=0.1",
