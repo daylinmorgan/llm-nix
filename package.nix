@@ -13,18 +13,10 @@ let
 
   # Create package overlay from workspace.
   overlay = workspace.mkPyprojectOverlay {
-    # Prefer prebuilt binary wheels as a package source.
-    # Sdists are less likely to "just work" because of the metadata missing from uv.lock.
-    # Binary wheels are more likely to, but may still require overrides for library dependencies.
-    sourcePreference = "wheel"; # or sourcePreference = "sdist";
-    # Optionally customise PEP 508 environment
-    # environ = {
-    #   platform_release = "5.10.65";
-    # };
+    sourcePreference = "wheel"; # or "sdist";
   };
 
-  # Use Python 3.12 from nixpkgs
-  python = pkgs.python312;
+  python = pkgs.python3;
 
   # Construct package set
   pythonSet =
