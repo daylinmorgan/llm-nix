@@ -40,12 +40,12 @@
         "aarch64-linux"
         "aarch64-darwin"
       ];
-      forSystem = f: system: f (import nixpkgs { inherit system; });
+      forSystem = f: system: f system (import nixpkgs { inherit system; });
       forAllSystems = f: genAttrs systems (forSystem f);
     in
     {
-      packages = forAllSystems (pkgs: {
-        default = self.packages.${pkgs.system}.llm;
+      packages = forAllSystems (system: pkgs: {
+        default = self.packages.${system}.llm;
         llm = pkgs.callPackage ./package.nix {
           inherit
             uv2nix
