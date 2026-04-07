@@ -13,7 +13,7 @@ wheels = [
 
 [[package]]
 name = "anthropic"
-version = "0.86.0"
+version = "0.89.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -25,22 +25,22 @@ dependencies = [
     { name = "sniffio" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/37/7a/8b390dc47945d3169875d342847431e5f7d5fa716b2e37494d57cfc1db10/anthropic-0.86.0.tar.gz", hash = "sha256:60023a7e879aa4fbb1fed99d487fe407b2ebf6569603e5047cfe304cebdaa0e5", size = 583820, upload-time = "2026-03-18T18:43:08.017Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/60/af/862e216dd6c5e9bc02fb374eeaaa19017c51b90ddfa5692668a3811947bd/anthropic-0.89.0.tar.gz", hash = "sha256:f3d75b8ccef4b35f3702639519e461eba437d4bcdfabb69378c65a02ab7bda66", size = 596758, upload-time = "2026-04-03T18:57:01.348Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/63/5f/67db29c6e5d16c8c9c4652d3efb934d89cb750cad201539141781d8eae14/anthropic-0.86.0-py3-none-any.whl", hash = "sha256:9d2bbd339446acce98858c5627d33056efe01f70435b22b63546fe7edae0cd57", size = 469400, upload-time = "2026-03-18T18:43:06.526Z" },
+    { url = "https://files.pythonhosted.org/packages/22/ba/9f973f22abb512d5d17428a76e4ecbc8d49b9dd1b5a1152576d48c24dc1d/anthropic-0.89.0-py3-none-any.whl", hash = "sha256:c6d23854af798f2471ca3bc653cca394d392cc272fe803d3da9d63575b8445f0", size = 478847, upload-time = "2026-04-03T18:56:59.54Z" },
 ]
 
 [[package]]
 name = "anyio"
-version = "4.12.1"
+version = "4.13.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "idna" },
     { name = "typing-extensions", marker = "python_full_version < '3.13'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/96/f0/5eb65b2bb0d09ac6776f2eb54adee6abe8228ea05b20a5ad0e4945de8aac/anyio-4.12.1.tar.gz", hash = "sha256:41cfcc3a4c85d3f05c932da7c26d0201ac36f72abd4435ba90d0464a3ffed703", size = 228685, upload-time = "2026-01-06T11:45:21.246Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz", hash = "sha256:334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc", size = 231622, upload-time = "2026-03-24T12:59:09.671Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/38/0e/27be9fdef66e72d64c0cdc3cc2823101b80585f8119b5c112c2e8f5f7dab/anyio-4.12.1-py3-none-any.whl", hash = "sha256:d405828884fc140aa80a3c667b8beed277f1dfedec42ba031bd6ac3db606ab6c", size = 113592, upload-time = "2026-01-06T11:45:19.497Z" },
+    { url = "https://files.pythonhosted.org/packages/da/42/e921fccf5015463e32a3cf6ee7f980a6ed0f395ceeaa45060b61d86486c2/anyio-4.13.0-py3-none-any.whl", hash = "sha256:08b310f9e24a9594186fd75b4f73f4a4152069e3853f1ed8bfbf58369f4ad708", size = 114353, upload-time = "2026-03-24T12:59:08.246Z" },
 ]
 
 [[package]]
@@ -54,14 +54,14 @@ wheels = [
 
 [[package]]
 name = "click"
-version = "8.3.1"
+version = "8.3.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz", hash = "sha256:12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a", size = 295065, upload-time = "2025-11-15T20:45:42.706Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/57/75/31212c6bf2503fdf920d87fee5d7a86a2e3bcf444984126f13d8e4016804/click-8.3.2.tar.gz", hash = "sha256:14162b8b3b3550a7d479eafa77dfd3c38d9dc8951f6f69c78913a8f9a7540fd5", size = 302856, upload-time = "2026-04-03T19:14:45.118Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl", hash = "sha256:981153a64e25f12d547d3426c367a4857371575ee7ad18df2a6183ab0545b2a6", size = 108274, upload-time = "2025-11-15T20:45:41.139Z" },
+    { url = "https://files.pythonhosted.org/packages/e4/20/71885d8b97d4f3dde17b1fdb92dbd4908b00541c5a3379787137285f602e/click-8.3.2-py3-none-any.whl", hash = "sha256:1924d2c27c5653561cd2cae4548d1406039cb79b858b747cfea24924bbc1616d", size = 108379, upload-time = "2026-04-03T19:14:43.505Z" },
 ]
 
 [[package]]
@@ -303,7 +303,7 @@ wheels = [
 
 [[package]]
 name = "llm"
-version = "0.29"
+version = "0.30"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -321,9 +321,9 @@ dependencies = [
     { name = "sqlite-migrate" },
     { name = "sqlite-utils" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e4/5a/c882d099a623f9d9d10a2718a6179aca87e541d3f60939e751d565efda87/llm-0.29.tar.gz", hash = "sha256:75256631dc8bb990253f46be315ba43f21c0350ac47b09f673024191ebcf93cc", size = 85171, upload-time = "2026-03-17T19:26:00.868Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5c/eb/96e051501bc3ca624f402595601942d792f333bef14405eab61fa690861e/llm-0.30.tar.gz", hash = "sha256:77801e45bf00908c6e62c747e2ca251af1cf4d90f67ba629307022fad2ef89cc", size = 85839, upload-time = "2026-03-31T20:37:36.245Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/44/d51026c16c03e8cfbb8a50a1bf1ffcdf660fd4d74614bfc9c15627b7b390/llm-0.29-py3-none-any.whl", hash = "sha256:f04726019ce9d7ef264412c585eb286dd61621f5164ee284cecfda09b6e22f95", size = 82705, upload-time = "2026-03-17T19:25:59.501Z" },
+    { url = "https://files.pythonhosted.org/packages/20/72/72f7327c50209592f5acc1957eda3fb4a0d3532b140e4be99f60027cb45f/llm-0.30-py3-none-any.whl", hash = "sha256:9edf606dfb6330b2cc03bcc6cd94660d75820619f7d74df9c842691a2f59f0e1", size = 83325, upload-time = "2026-03-31T20:37:34.844Z" },
 ]
 
 [[package]]
@@ -393,16 +393,16 @@ wheels = [
 
 [[package]]
 name = "llm-gemini"
-version = "0.29"
+version = "0.30"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
     { name = "ijson" },
     { name = "llm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/40/23/5760b0b48161beec559cae9e6d0bbbab8bd70539cbea6056d7997d10ea94/llm_gemini-0.29.tar.gz", hash = "sha256:3f1f7da7f3765d5c3422ff208e9a1996c401e86fca4fb7b9fbd3bfdc372aea18", size = 23322, upload-time = "2026-02-19T17:58:31.567Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/33/834329696ecb6cade2a8a3b99c86860487eeacf92eaf6287b0fbb9c23896/llm_gemini-0.30.tar.gz", hash = "sha256:594d4ec83134a942e3c3e4d3f8322a54cad11aa10631d516fc719b180cb4fd63", size = 23281, upload-time = "2026-04-02T18:26:09.455Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/3e/8767bb9541b5f54d2758c14ba03e866a6fa9702dfd4e366be247b9a04315/llm_gemini-0.29-py3-none-any.whl", hash = "sha256:5058d541d47442c614025ef793abb74fca53aacec17c235fcd55a5b139680edc", size = 17789, upload-time = "2026-02-19T17:58:29.777Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/62/b7b49ef3cd30e1e475901b9ca20743d22dd1cff8fc21c987b7d216405bc9/llm_gemini-0.30-py3-none-any.whl", hash = "sha256:559cef4b2538cdec5081ffacd0968a9e8d3fe328ba4d462ca9d164e4898818bd", size = 17758, upload-time = "2026-04-02T18:26:08.25Z" },
 ]
 
 [[package]]
@@ -556,7 +556,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "2.29.0"
+version = "2.30.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -568,9 +568,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b4/15/203d537e58986b5673e7f232453a2a2f110f22757b15921cbdeea392e520/openai-2.29.0.tar.gz", hash = "sha256:32d09eb2f661b38d3edd7d7e1a2943d1633f572596febe64c0cd370c86d52bec", size = 671128, upload-time = "2026-03-17T17:53:49.599Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/88/15/52580c8fbc16d0675d516e8749806eda679b16de1e4434ea06fb6feaa610/openai-2.30.0.tar.gz", hash = "sha256:92f7661c990bda4b22a941806c83eabe4896c3094465030dd882a71abe80c885", size = 676084, upload-time = "2026-03-25T22:08:59.96Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d0/b1/35b6f9c8cf9318e3dbb7146cc82dab4cf61182a8d5406fc9b50864362895/openai-2.29.0-py3-none-any.whl", hash = "sha256:b7c5de513c3286d17c5e29b92c4c98ceaf0d775244ac8159aeb1bddf840eb42a", size = 1141533, upload-time = "2026-03-17T17:53:47.348Z" },
+    { url = "https://files.pythonhosted.org/packages/2a/9e/5bfa2270f902d5b92ab7d41ce0475b8630572e71e349b2a4996d14bdda93/openai-2.30.0-py3-none-any.whl", hash = "sha256:9a5ae616888eb2748ec5e0c5b955a51592e0b201a11f4262db920f2a78c5231d", size = 1146656, upload-time = "2026-03-25T22:08:58.2Z" },
 ]
 
 [[package]]
@@ -605,11 +605,11 @@ wheels = [
 
 [[package]]
 name = "puremagic"
-version = "2.1.0"
+version = "2.1.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/98/61/3c849a5bd7e07fc746f26ae56cf8a1b7b4c9bed12d68d9648cc903d14fbd/puremagic-2.1.0.tar.gz", hash = "sha256:06beb598183c625bf9bfed70016930c2d1299e138cd07ed5d6085a7c5deaab19", size = 1133014, upload-time = "2026-03-13T22:14:47.082Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/eb/df/3725f4b848095ef634c0b2226c97901e64ee2d5a82981d89d4b784ae8ce1/puremagic-2.1.1.tar.gz", hash = "sha256:b156c4ae63d84842f92a85cd49c9b9029a4f107f98ad14e7584ed652954feff4", size = 1133417, upload-time = "2026-03-23T19:08:46.929Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c1/40/58652e2f46cf849e9261a4edf06610e24f11c24fb1180d65716885020640/puremagic-2.1.0-py3-none-any.whl", hash = "sha256:9e613ffe9e6e33a0f651d4c0cfc1e16f86d2220edf137dfa3dd0ba2ba353f013", size = 67860, upload-time = "2026-03-13T22:14:45.686Z" },
+    { url = "https://files.pythonhosted.org/packages/62/d0/12b1d4113fd6660a0a75e8c40500c5d1c4febd8e24dc85aaf20cfd93e9d6/puremagic-2.1.1-py3-none-any.whl", hash = "sha256:b8862451f96254358a6e2ea7fba46e0600cf8b13ebe917d6eecdb18fc22db964", size = 68025, upload-time = "2026-03-23T19:08:45.872Z" },
 ]
 
 [[package]]
@@ -700,11 +700,11 @@ wheels = [
 
 [[package]]
 name = "pygments"
-version = "2.19.2"
+version = "2.20.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631, upload-time = "2025-06-21T13:39:12.283Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz", hash = "sha256:6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f", size = 4955991, upload-time = "2026-03-29T13:29:33.898Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217, upload-time = "2025-06-21T13:39:07.939Z" },
+    { url = "https://files.pythonhosted.org/packages/f4/7e/a72dd26f3b0f4f2bf1dd8923c85f7ceb43172af56d63c7383eb62b332364/pygments-2.20.0-py3-none-any.whl", hash = "sha256:81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176", size = 1231151, upload-time = "2026-03-29T13:29:30.038Z" },
 ]
 
 [[package]]
