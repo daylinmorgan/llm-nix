@@ -14,8 +14,8 @@ from swydd import task, cli, sub
 @task
 def update_locks():
     """update uv.lock and flake.lock"""
-    sub("uv lock --upgrade")
     sub("nix flake update")
+    sub("uv lock --upgrade")
     sub("jj ci -m 'update flake.lock & uv.lock' flake.lock uv.lock")
 
 
